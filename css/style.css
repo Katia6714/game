@@ -1,0 +1,128 @@
+.game__conteiner{
+	width: 800px;
+	max-height: 1100px;
+	background-color: black;
+	margin: 50px;
+	box-shadow: 10px 10px 10px 20px orangered;
+	border: 5px solid black;
+	padding: 10px;
+	
+}
+.start{
+	color: #dcdcea;
+	width: 100px;
+	height: 100px;
+	background: url(../img/building_halloween_castle_horror_scary_icon_229332.png) 0 0 / contain no-repeat orangered;
+	text-align: center;
+	padding: 10px;
+	line-height: 150%;
+}
+.start:hover + div,
+.next1:hover{
+	visibility: visible;
+}
+.next1{
+	height: 30px;
+   width: 500px;
+   background:url(../img/dead_spooky_scary_ghost_halloween_icon_229394.png) 0 0 / contain no-repeat #2fc222;
+   visibility: hidden;
+}
+.next1:hover + div,
+.next2:hover{
+	visibility: visible;
+}
+.next2{
+	width: 20px;
+	height: 60px;
+	background:url(../img/monster_spooky_pumpkin_halloween_icon_229389.png) 0 0 / contain no-repeat #e7700f;
+	visibility: hidden;
+	margin-left: 480px;
+}
+.next2:hover + div,
+.next3:hover{
+	visibility: visible;
+}
+.next3{
+	width: 80px;
+	height: 20px;
+	background:url(../img/horror_vampire_scary_bat_halloween_icon_229384.png) 60px 0 / contain no-repeat #27a7ce;
+	visibility: hidden;
+	margin-left: 420px;
+}
+.next3:hover + div,
+.next4:hover{
+	visibility: visible;
+}
+.next4{
+	width: 20px;
+	height: 120px;
+	background:url(../img/flag_ghost_party_garland_halloween_icon_229399.png) 0 0 / contain no-repeat #c63fba;
+	visibility: hidden;
+	margin-left: 420px;
+}
+.next4:hover + div,
+.next5:hover{
+	visibility: visible;
+}
+.next5{
+	width: 220px;
+	height: 15px;
+	background:url(../img/horror_decoration_party_balloon_halloween_icon_229420.png) 0 0 / contain no-repeat #a32549;
+	visibility: hidden;
+	margin-left: 420px;
+}
+.next5:hover + div,
+.next6:hover{
+	visibility: visible;
+}
+.next6{
+	width: 25px;
+	height: 320px;
+	background:url(../img/lollipop_treat_sweet_candy_halloween_icon_229391.png) 0 0 / contain no-repeat #9edf13;
+	visibility: hidden;
+	margin-left: 615px;
+}
+.next6:hover + div,
+.next7:hover{
+	visibility: visible;
+}
+.next7{
+	width: 325px;
+	height: 30px;
+	background:url(../img/wizard_scary_hat_magic_witch_halloween_icon_229396.png) 290px 0 / contain no-repeat  #f06216;
+	visibility: hidden;
+	margin-left: 315px;
+}
+.next7:hover + div,
+.next8:hover{
+	visibility: visible;
+}
+.next8{
+	width: 15px;
+	height: 200px;
+	background:url(../img/scary_horror_blood_knife_halloween_icon_229413.png) 0 0 / contain no-repeat  rgb(81, 58, 136);
+	visibility: hidden;
+	margin-left: 315px;
+}
+.next8:hover + div,
+.next9:hover{
+	visibility: visible;
+}
+.next9{
+	width: 330px;
+	height: 30px;
+	background:url(../img/toxic_skull_danger_poison_halloween_icon_229412.png) 300px 0 / contain no-repeat rgb(62, 5, 51);
+	visibility: hidden;
+}
+.finish{
+	color: #dcdcea;
+	width: 100px;
+	height: 100px;
+	background-color:orangered ;
+	text-align: center;
+	padding: 10px;
+	line-height: 150%;
+}
+.finish:hover{
+	background: url(../img/zombie_horror_scary_mummy_halloween_icon_229393.png) 0 0 / contain no-repeat orangered;
+}
